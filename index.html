@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="KupiDonat — твой ассистент в мире игр.">
+  <title>KupiDonat — твой ассистент в мире игр</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preload" href="assets/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/poppins-black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="screen" id="home" data-node-id="2028:34777">
+    <div class="decoration" aria-hidden="true">
+      <div class="bottom-glow"><img src="assets/bottom-decoration.webp" alt=""></div>
+      <div class="top-grid"></div>
+      <img class="search-background" src="assets/search-decoration.webp" alt="">
+    </div>
+
+    <header class="header" data-node-id="2028:35281">
+      <div class="menu">
+        <div class="menu-start">
+          <a class="brand" href="onewhale.html" aria-label="Перейти к OneWhale"><img src="assets/logo.png" alt="KD" width="58" height="58"></a>
+          <span class="divider" aria-hidden="true"></span>
+          <button class="quick-search" type="button" aria-label="Перейти к поиску игры"><img src="assets/imgSearch.svg" width="24" height="24" alt=""></button>
+        </div>
+        <nav class="navigation" aria-label="Главная навигация">
+          <a href="#home" aria-current="page">Главная</a>
+          <button type="button" data-pending="Раздача">Раздача</button>
+          <button type="button" data-pending="Отзывы">Отзывы</button>
+          <button type="button" data-pending="Поддержка">Поддержка</button>
+          <button type="button" data-pending="Блог">Блог</button>
+        </nav>
+        <div class="menu-end">
+          <button class="language" type="button" aria-label="Язык: русский" data-pending="Выбор языка">
+            <span class="flag"><img src="assets/imgFrame.svg" width="36" height="24" alt=""></span>
+            <span>Ru</span><img class="chevron" src="assets/imgFrame427320323.svg" width="16" height="16" alt="">
+          </button>
+          <span class="divider" aria-hidden="true"></span>
+          <button class="login" type="button" data-pending="Вход"><span>Войти</span><img src="assets/imgSignIn.svg" width="18" height="18" alt=""></button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-title" data-node-id="2028:35208">
+      <div class="title-block">
+        <h1 id="hero-title" data-node-id="2028:35295">KupiDonat</h1>
+        <p class="tagline" data-node-id="2028:35296">твой ассистент в мире игр</p>
+      </div>
+      <div class="search-section">
+        <p class="intro" data-node-id="2028:35285">100% безопасность вашего игрового аккаунта - Приятные цены на валюту<br class="desktop-break"> в мобильных играх. Скорость доставки максимально быстрая.</p>
+        <form class="search-shell" role="search" data-node-id="2028:35286">
+          <div class="search-field" data-node-id="2028:35287">
+            <label class="sr-only" for="game-search">Название игры</label>
+            <input id="game-search" name="game" type="search" role="combobox" aria-autocomplete="list" aria-controls="game-suggestions" aria-expanded="false" placeholder="Введите название вашей игры;;;" autocomplete="off" spellcheck="false" required>
+            <button class="search-submit" type="submit" aria-label="Найти игру" data-node-id="2028:35289"><img src="assets/imgSearch1.svg" width="36.023" height="36.023" alt=""></button>
+          </div>
+          <div class="suggestions-panel" hidden>
+            <div class="suggestions-toolbar">
+              <span>вы раньше искали</span>
+              <button class="clear-search" type="button"><img src="assets/trash.svg" width="16" height="16" alt="">очистить результат поиска</button>
+            </div>
+            <ul id="game-suggestions" class="suggestions-list" role="listbox" aria-label="Подсказки игр"></ul>
+            <p class="suggestions-empty" hidden>Ничего не найдено. Попробуйте «wo».</p>
+          </div>
+        </form>
+      </div>
+      <dl class="statistics" data-node-id="2028:35297">
+        <div class="stat"><dt>Лет на рынке</dt><dd>10+ </dd></div>
+        <div class="stat"><dt>Продаж</dt><dd>2 871 400+</dd></div>
+        <div class="stat"><dt>Активных пользователей</dt><dd>2 411+</dd></div>
+      </dl>
+    </section>
+    <div class="search-backdrop" hidden></div>
+    <p class="notice" role="status" aria-live="polite" hidden></p>
+  </main>
+</body>
+</html>

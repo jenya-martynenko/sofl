@@ -1,0 +1,8 @@
+{
+  "size": [
+    1440,
+    1005
+  ],
+  "mean_absolute_rgb_error": 2.4709,
+  "note": "Raw pixel difference; not a percentage of design fidelity. Font replacement and browser antialiasing remain."
+}

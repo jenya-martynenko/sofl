@@ -1,0 +1,104 @@
+{
+  "errors": [],
+  "checks": [
+    "9 cards",
+    "images loaded",
+    "logo roundtrip",
+    "wo: 5 suggestions",
+    "sidebar toggle",
+    "no overflow at 390,768,1024"
+  ],
+  "boxes": [
+    {
+      "class": "page-header",
+      "rect": {
+        "x": 285,
+        "y": 36,
+        "width": 1110,
+        "height": 48,
+        "top": 36,
+        "right": 1395,
+        "bottom": 84,
+        "left": 285
+      }
+    },
+    {
+      "class": "toolbar",
+      "rect": {
+        "x": 285,
+        "y": 108,
+        "width": 1110,
+        "height": 48,
+        "top": 108,
+        "right": 1395,
+        "bottom": 156,
+        "left": 285
+      }
+    },
+    {
+      "class": "order-card",
+      "rect": {
+        "x": 285,
+        "y": 180,
+        "width": 359.328125,
+        "height": 346,
+        "top": 180,
+        "right": 644.328125,
+        "bottom": 526,
+        "left": 285
+      }
+    },
+    {
+      "class": "trade buy",
+      "rect": {
+        "x": 301,
+        "y": 240,
+        "width": 327.328125,
+        "height": 105,
+        "top": 240,
+        "right": 628.328125,
+        "bottom": 345,
+        "left": 301
+      }
+    },
+    {
+      "class": "trade sell",
+      "rect": {
+        "x": 301,
+        "y": 351,
+        "width": 327.328125,
+        "height": 87,
+        "top": 351,
+        "right": 628.328125,
+        "bottom": 438,
+        "left": 301
+      }
+    },
+    {
+      "class": "order-card",
+      "rect": {
+        "x": 660.328125,
+        "y": 180,
+        "width": 359.328125,
+        "height": 346,
+        "top": 180,
+        "right": 1019.65625,
+        "bottom": 526,
+        "left": 660.328125
+      }
+    },
+    {
+      "class": "trade buy",
+      "rect": {
+        "x": 676.328125,
+        "y": 240,
+        "width": 327.328125,
+        "height": 105,
+        "top": 240,
+        "right": 1003.65625,
+        "bottom": 345,
+        "left": 676.328125
+      }
+    }
+  ]
+}
