@@ -2,6 +2,11 @@
 
 Вёрстка выбранного экрана Figma `2028:34777` из файла `rYl2Zh92xqBj6BZj9TnTxR`.
 
+## Онлайн
+
+- [KupiDonat](https://jenya-martynenko.github.io/sofl/)
+- [OneWhale](https://jenya-martynenko.github.io/sofl/onewhale.html)
+
 ## Просмотр
 
 ```sh
